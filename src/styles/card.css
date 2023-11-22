@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainCard {
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+}
+.navTabs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50vw;
+  height: 5vh;
+  background-color: rgb(240, 235, 235);
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.navTabs .navBars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid gray;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.ActivenavBars {
+  background-color: rgb(79, 79, 227);
+  color: white;
+}
+.searchAhead{
+  display: flex;
+  padding:5px 180px;
+  margin-left:40px;
+  margin-bottom: 15px;
+
+}
+.mainCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d7dfe9;
+  width: 25vw;
+  height: 25vh;
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.imageTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5vw;
+  height: 8vh;
+  background-color: gray;
+  margin: 10px;
+}
+.imageTag img {
+  width: 5vw;
+  height: 8vh;
+  object-fit: fill;
+}
+.cardItems {
+  display: flex;
+  flex-basis: 300px;
+  flex-direction: column;
+  overflow: hidden;
+  gap:10px;
+}
+.cardItems h3{
+  font-weight: 400;
+}
+.cardItems p{
+  font-weight: 300;
+}

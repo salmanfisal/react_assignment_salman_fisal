@@ -1,0 +1,56 @@
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 90vh;
+  background-color: rgb(251, 248, 248);
+  margin: auto;
+}
+.details form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40vw;
+  height: 90vh;
+  flex-wrap: wrap;
+  flex-basis: 500px;
+}
+
+.details form input {
+  padding: 5px 80px;
+  margin-bottom: 30px;
+}
+.details form button {
+  margin:30px 100px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  background-color: rgb(113, 113, 226);
+}
+.details form textarea {
+  padding: 10px 80px;
+}
+.details form h1 {
+  margin-left:60px;
+  margin-bottom: 10px;
+}
+.goback{
+  text-decoration: none;
+  color: black;
+  padding:5px 30px;
+  font-size: 20px;
+} 
+.goback span{
+  font-size: 30px;
+}
+.details .imgcontainer{
+  width:30vw;
+  height:100vh;
+  z-index: 1;
+  background-color: red;
+}
+.imgcontainer img{
+  width:40vw;
+  height:100vh;
+  object-fit: cover;
+}
